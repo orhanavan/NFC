@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setColorRedDelayed() {
         CoroutineScope(Dispatchers.Main).launch {
-            delay(500)
+            delay(3500)
             setColorRed()
         }
     }
